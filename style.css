@@ -99,7 +99,7 @@ input, select {
   background-color: #191816;
 }
 
-header svg {
+header img {
   margin: 4rem 2rem;
 }
 
@@ -134,12 +134,29 @@ form fieldset input {
   display: block;
   margin: 0.5rem 2rem 2rem;
   width: 90%;
+  height: 3rem;
+  color: #afb6c2;
   padding: 0.5rem 1rem;
   box-sizing: border-box;
-  height: 3rem;
   border: 1px solid #afb6c2;
   border-radius: 0.5rem;
   background-color: #191816;
+}
+form fieldset #email::-moz-placeholder {
+  background: left/contain no-repeat url(images/mail-focus.svg);
+  padding-left: 2rem;
+}
+form fieldset #email::placeholder {
+  background: left/contain no-repeat url(images/mail-focus.svg);
+  padding-left: 2rem;
+}
+form fieldset #password::-moz-placeholder {
+  background: left/contain no-repeat url(images/lock.svg);
+  padding-left: 2rem;
+}
+form fieldset #password::placeholder {
+  background: left/contain no-repeat url(images/lock.svg);
+  padding-left: 2rem;
 }
 form fieldset .checkbox-flex {
   display: flex;
