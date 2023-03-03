@@ -93,4 +93,36 @@ input, select {
 
 * {
   font-size: 62.5%;
+}
+
+.grid1 {
+  background-color: #191816;
+}
+
+header svg {
+  margin: 4rem 2rem;
+}
+
+.login-flex {
+  display: flex;
+  margin-left: 2rem;
+}
+.login-flex h1 {
+  font-family: "Poppins", "Roboto";
+  font-weight: 600;
+  font-size: 2rem;
+  color: #d4ccb6;
+  padding-left: 1rem;
+}
+
+.explain {
+  font-family: "Poppins", "Roboto";
+  font-weight: 400;
+  color: #afb6c2;
+  font-size: 1.4rem;
+  margin: 2rem auto 3rem 2rem;
+}
+
+form fieldset label {
+  color: #afb6c2;
 }/*# sourceMappingURL=style.css.map */
