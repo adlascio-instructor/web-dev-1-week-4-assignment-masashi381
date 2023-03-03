@@ -156,11 +156,11 @@ form{
       border: 1px solid $text-base;
       border-radius: 0.5rem;
       background-color: #191816;
-    }
-    #email{
       &:focus{
         outline-color: $primary-color;
       }
+    }
+    #email{
       &::placeholder{
         background: left / contain no-repeat url(images/mail-focus.svg);
         padding-left: 2rem;
