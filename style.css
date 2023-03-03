@@ -135,4 +135,31 @@ form fieldset input {
   margin: 0.5rem 2rem 2rem;
   width: 80%;
   padding: 0.5rem 1rem;
+}
+form fieldset .checkbox-flex {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-bottom: 2rem;
+}
+form fieldset .checkbox-flex .inner-flex {
+  display: flex;
+}
+form fieldset .checkbox-flex .inner-flex #checkbox {
+  margin: 0;
+  margin-left: 2rem;
+  padding: 0;
+  width: 1.6rem;
+}
+form fieldset .checkbox-flex .inner-flex label {
+  font-weight: 400;
+  color: #afb6c2;
+  margin: 0;
+  margin-left: 0.5rem;
+}
+form fieldset .checkbox-flex > p a {
+  font-weight: 400;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #ffc632;
 }/*# sourceMappingURL=style.css.map */
