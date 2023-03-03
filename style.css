@@ -229,10 +229,29 @@ form fieldset .signUp a {
   .grid1 {
     grid-column: 1/2;
   }
+  .grid1 header {
+    margin-bottom: 6rem;
+  }
+  .grid1 header img {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+  .grid1 .web-bg {
+    background-color: #24221f;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .grid1 .web-bg .inner {
+    width: 70%;
+    padding: 5rem 0;
+    margin: 0 auto;
+  }
+  .grid1 .web-bg .inner form fieldset p {
+    margin-bottom: 0;
+  }
   .grid2 {
     display: block;
     grid-column: 2/3;
-    width: 100%;
   }
   .grid2 img {
     width: 100%;

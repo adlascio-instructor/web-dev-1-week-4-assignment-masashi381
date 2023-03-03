@@ -166,12 +166,14 @@ form{
         padding-left: 2rem;
       }
     }
+    // email
     #password{
       &::placeholder{
         background: left / contain no-repeat url(images/lock.svg), right / contain no-repeat url(images/eye.svg);
         padding-left: 2rem;
       }
     }
+    // password
     .checkbox-flex{
       display: flex;
       justify-content: space-between;
@@ -204,6 +206,7 @@ form{
         }
       }
     }
+    // checkbox
     .btn{
       display: block;
       width: 90%;
@@ -217,6 +220,7 @@ form{
       border: none;
       border-radius: .5rem;
     }
+    // btn
     .signUp{
       color: $primary-color;
       text-align: center;
@@ -231,7 +235,7 @@ form{
     }
   }
 }
-
+// form
 .grid2{
   display: none;
 }
@@ -244,13 +248,39 @@ form{
   }
   .grid1{
     grid-column: 1/2;
+    header{
+      margin-bottom: 6rem;
+      img{
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+      }
+    }
+    // header
+    .web-bg{
+      background-color: #24221f;
+      width: 80%;
+      margin: 0 auto;
+      .inner{
+        width: 70%;
+        padding: 5rem 0;
+        margin: 0 auto;
+        form{
+          fieldset{
+            p{
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
   }
+  // grid1
   .grid2{
     display: block;
     grid-column: 2/3;
-    width: 100%;
     img{
       width: 100%;
     }
   }
+  // grid2
 }
