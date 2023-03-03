@@ -145,12 +145,28 @@ form fieldset input {
 form fieldset input:focus {
   outline-color: #ffc632;
 }
-form fieldset #email::-moz-placeholder {
+form fieldset #email:focus::-moz-placeholder {
   background: left/contain no-repeat url(images/mail-focus.svg);
   padding-left: 2rem;
 }
-form fieldset #email::placeholder {
+form fieldset #email:focus::placeholder {
   background: left/contain no-repeat url(images/mail-focus.svg);
+  padding-left: 2rem;
+}
+form fieldset #email::-moz-placeholder {
+  background: left/contain no-repeat url(images/mail.svg);
+  padding-left: 2rem;
+}
+form fieldset #email::placeholder {
+  background: left/contain no-repeat url(images/mail.svg);
+  padding-left: 2rem;
+}
+form fieldset #password:focus::-moz-placeholder {
+  background: left/contain no-repeat url(images/lock-focus.svg);
+  padding-left: 2rem;
+}
+form fieldset #password:focus::placeholder {
+  background: left/contain no-repeat url(images/lock-focus.svg);
   padding-left: 2rem;
 }
 form fieldset #password::-moz-placeholder {
@@ -204,6 +220,7 @@ form fieldset .btn {
   border-radius: 0.5rem;
 }
 form fieldset .signUp {
+  font-family: "Poppins", "Roboto";
   color: #ffc632;
   text-align: center;
   font-size: 1.4rem;

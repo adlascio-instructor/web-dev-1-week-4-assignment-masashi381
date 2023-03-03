@@ -161,13 +161,25 @@ form{
       }
     }
     #email{
+      &:focus{
+        &::placeholder{
+          background: left / contain no-repeat url(images/mail-focus.svg);
+          padding-left: 2rem;
+        }
+      }
       &::placeholder{
-        background: left / contain no-repeat url(images/mail-focus.svg);
+        background: left / contain no-repeat url(images/mail.svg);
         padding-left: 2rem;
       }
     }
     // email
     #password{
+      &:focus{
+        &::placeholder{
+          background: left / contain no-repeat url(images/lock-focus.svg);
+          padding-left: 2rem;
+        }
+      }
       &::placeholder{
         background: left / contain no-repeat url(images/lock.svg), right / contain no-repeat url(images/eye.svg);
         padding-left: 2rem;
@@ -222,6 +234,7 @@ form{
     }
     // btn
     .signUp{
+      font-family: $main-fontFamily;
       color: $primary-color;
       text-align: center;
       font-size: 1.4rem;
