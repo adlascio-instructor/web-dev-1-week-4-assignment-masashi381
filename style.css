@@ -133,21 +133,21 @@ form fieldset label {
 form fieldset input {
   display: block;
   margin: 0.5rem 2rem 2rem;
-  width: 80%;
+  width: 90%;
   padding: 0.5rem 1rem;
+  box-sizing: border-box;
 }
 form fieldset .checkbox-flex {
   display: flex;
   justify-content: space-between;
   width: 90%;
-  margin-bottom: 2rem;
+  margin: 0 auto 2rem;
 }
 form fieldset .checkbox-flex .inner-flex {
   display: flex;
 }
 form fieldset .checkbox-flex .inner-flex #checkbox {
   margin: 0;
-  margin-left: 2rem;
   padding: 0;
   width: 1.6rem;
 }
@@ -158,8 +158,34 @@ form fieldset .checkbox-flex .inner-flex label {
   margin-left: 0.5rem;
 }
 form fieldset .checkbox-flex > p a {
+  font-family: "Poppins", "Roboto";
   font-weight: 400;
   font-size: 1.6rem;
   text-decoration: none;
   color: #ffc632;
+}
+form fieldset .btn {
+  display: block;
+  width: 90%;
+  height: 5rem;
+  margin: 0 auto;
+  background-color: #ffc632;
+  font-family: "Poppins", "Roboto";
+  font-weight: 500;
+  font-size: 2rem;
+  color: #191816;
+  border: none;
+  border-radius: 0.5rem;
+}
+form fieldset .signUp {
+  color: #ffc632;
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 2rem auto 20rem;
+}
+form fieldset .signUp a {
+  margin-left: 0.5rem;
+  color: #ffc632;
+  font-size: 1.6rem;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
