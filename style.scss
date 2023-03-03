@@ -109,7 +109,7 @@ $primary-color: #ffc632;
 
 // common css
 header{
-    svg{
+    img{
         margin: 4rem 2rem;
     }
 }
@@ -149,12 +149,25 @@ form{
       display: block;
       margin: 0.5rem 2rem 2rem;
       width: 90%;
+      height: 3rem;
+      color: $text-base;
       padding: 0.5rem 1rem;
       box-sizing: border-box;
-      height: 3rem;
       border: 1px solid $text-base;
       border-radius: 0.5rem;
       background-color: #191816;
+    }
+    #email{
+      &::placeholder{
+        background: left / contain no-repeat url(images/mail-focus.svg);
+        padding-left: 2rem;
+      }
+    }
+    #password{
+      &::placeholder{
+        background: left / contain no-repeat url(images/lock.svg);
+        padding-left: 2rem;
+      }
     }
     .checkbox-flex{
       display: flex;
