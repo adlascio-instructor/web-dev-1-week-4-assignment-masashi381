@@ -93,6 +93,52 @@ vertical-align:middle;
 
 // end reset CSS
 
+$main-fontFamily: "Poppins", "Roboto";
+$text-base: #afb6c2;
+$text-title: #d4ccb6;
+// variables
+
 *{
     font-size: 62.5%;
+}
+
+.grid1{
+    background-color: #191816;
+}
+
+// common css
+header{
+    svg{
+        margin: 4rem 2rem;
+    }
+}
+
+// header
+
+.login-flex{
+  display: flex;
+  margin-left: 2rem;
+  h1{
+    font-family: $main-fontFamily;
+    font-weight: 600;
+    font-size: 2rem;
+    color: $text-title;
+    padding-left: 1rem;
+  }
+}
+
+.explain{
+  font-family: $main-fontFamily;
+  font-weight: 400;
+  color: $text-base;
+  font-size: 1.4rem;
+  margin: 2rem auto 3rem 2rem;
+}
+
+form{
+  fieldset{
+    label{
+      color: $text-base;
+    }
+  }
 }
