@@ -142,7 +142,7 @@ form{
       color: $text-base;
       display: block;
       margin-left: 2rem;
-      font-size: 1.6rem;
+      font-size: 1.4rem;
       font-family: $main-fontFamily;
     }
     input{
@@ -151,6 +151,10 @@ form{
       width: 90%;
       padding: 0.5rem 1rem;
       box-sizing: border-box;
+      height: 3rem;
+      border: 1px solid $text-base;
+      border-radius: 0.5rem;
+      background-color: #191816;
     }
     .checkbox-flex{
       display: flex;
@@ -163,6 +167,8 @@ form{
           margin: 0;
           padding: 0;
           width: 1.6rem;
+          height: auto;
+          accent-color: $primary-color;
         }
         label{
           $main-fontFamily: "Poppins", "Roboto";
@@ -176,7 +182,7 @@ form{
         a{
           font-family: $main-fontFamily;
           font-weight: 400;
-          font-size: 1.6rem;
+          font-size: 1.4rem;
           text-decoration: none;
           color: $primary-color;
         }

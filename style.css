@@ -127,7 +127,7 @@ form fieldset label {
   color: #afb6c2;
   display: block;
   margin-left: 2rem;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-family: "Poppins", "Roboto";
 }
 form fieldset input {
@@ -136,6 +136,10 @@ form fieldset input {
   width: 90%;
   padding: 0.5rem 1rem;
   box-sizing: border-box;
+  height: 3rem;
+  border: 1px solid #afb6c2;
+  border-radius: 0.5rem;
+  background-color: #191816;
 }
 form fieldset .checkbox-flex {
   display: flex;
@@ -150,6 +154,8 @@ form fieldset .checkbox-flex .inner-flex #checkbox {
   margin: 0;
   padding: 0;
   width: 1.6rem;
+  height: auto;
+  accent-color: #ffc632;
 }
 form fieldset .checkbox-flex .inner-flex label {
   font-weight: 400;
@@ -160,7 +166,7 @@ form fieldset .checkbox-flex .inner-flex label {
 form fieldset .checkbox-flex > p a {
   font-family: "Poppins", "Roboto";
   font-weight: 400;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   text-decoration: none;
   color: #ffc632;
 }
