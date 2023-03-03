@@ -158,6 +158,9 @@ form{
       background-color: #191816;
     }
     #email{
+      &:focus{
+        outline-color: $primary-color;
+      }
       &::placeholder{
         background: left / contain no-repeat url(images/mail-focus.svg);
         padding-left: 2rem;
@@ -225,6 +228,29 @@ form{
         font-size: 1.6rem;
         text-decoration: none;
       }
+    }
+  }
+}
+
+.grid2{
+  display: none;
+}
+
+@media only screen and (min-width: 376px) {
+  .grid-container{
+    display: grid;
+    grid-template-columns: 50%;
+    grid-auto-rows: auto;
+  }
+  .grid1{
+    grid-column: 1/2;
+  }
+  .grid2{
+    display: block;
+    grid-column: 2/3;
+    width: 100%;
+    img{
+      width: 100%;
     }
   }
 }
