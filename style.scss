@@ -165,7 +165,7 @@ form{
     }
     #password{
       &::placeholder{
-        background: left / contain no-repeat url(images/lock.svg);
+        background: left / contain no-repeat url(images/lock.svg), right / contain no-repeat url(images/eye.svg);
         padding-left: 2rem;
       }
     }
