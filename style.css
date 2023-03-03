@@ -142,7 +142,7 @@ form fieldset input {
   border-radius: 0.5rem;
   background-color: #191816;
 }
-form fieldset #email:focus {
+form fieldset input:focus {
   outline-color: #ffc632;
 }
 form fieldset #email::-moz-placeholder {
