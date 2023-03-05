@@ -156,8 +156,9 @@ form{
       border: 1px solid $text-base;
       border-radius: 0.5rem;
       background-color: #191816;
+      outline: none;
       &:focus{
-        outline-color: $primary-color;
+        border-color: $primary-color;
       }
     }
     #email{
