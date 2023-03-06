@@ -141,9 +141,10 @@ form fieldset input {
   border: 1px solid #afb6c2;
   border-radius: 0.5rem;
   background-color: #191816;
+  outline: none;
 }
 form fieldset input:focus {
-  outline-color: #ffc632;
+  border-color: #ffc632;
 }
 form fieldset #email:focus::-moz-placeholder {
   background: left/contain no-repeat url(images/mail-focus.svg);
